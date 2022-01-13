@@ -31,20 +31,20 @@ $(document).ready(function(){
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
-        setTimeout(() => {  $('.download-btn').toggleClass("active");}, 1);
+        setTimeout(() => {  $('.download-btn').toggleClass("active");}, 150);
         
     });
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["étudiant", "développeur", "passionné"],
+        strings: ["student", "developper", "passionated"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["étudiant", "développeur", "passionné"],
+        strings: ["student", "developper", "passionated"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true

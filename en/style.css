@@ -179,7 +179,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/bannerbn.jpg") no-repeat center;
+    background: url("../images/bannerbn.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -229,7 +229,7 @@ section .title::after{
 
 /* about section styling */
 .about .title::after{
-    content: "qui suis-je?";
+    content: "who am I?";
 }
 .about .about-content .left{
     width: 45%;
@@ -283,7 +283,7 @@ section .title::after{
 .studies .title::after,
 .studies .title::after{
     background: #111;
-    content: "mes études";
+    content: "what I learned";
 }
 .studies .studies-content .card{
     width: calc(33% - 20px);
@@ -323,7 +323,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "mes compétences";
+    content: "what I know";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -478,7 +478,7 @@ section .title::after{
 
 /* contact section styling */
 .contact .title::after{
-    content: "contactez-moi";
+    content: "get in touch";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
